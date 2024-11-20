@@ -1,0 +1,17 @@
+C:\Users\welcome\Downloads\CoreNewProjectCreate\ClassDAL\bin\Debug\net8.0\ClassDAL.deps.json
+C:\Users\welcome\Downloads\CoreNewProjectCreate\ClassDAL\bin\Debug\net8.0\ClassDAL.dll
+C:\Users\welcome\Downloads\CoreNewProjectCreate\ClassDAL\bin\Debug\net8.0\ClassDAL.pdb
+C:\Users\welcome\Downloads\CoreNewProjectCreate\ClassDAL\bin\Debug\net8.0\Data.dll
+C:\Users\welcome\Downloads\CoreNewProjectCreate\ClassDAL\bin\Debug\net8.0\Entity.dll
+C:\Users\welcome\Downloads\CoreNewProjectCreate\ClassDAL\bin\Debug\net8.0\Data.pdb
+C:\Users\welcome\Downloads\CoreNewProjectCreate\ClassDAL\bin\Debug\net8.0\Entity.pdb
+C:\Users\welcome\Downloads\CoreNewProjectCreate\ClassDAL\obj\Debug\net8.0\ClassDAL.csproj.AssemblyReference.cache
+C:\Users\welcome\Downloads\CoreNewProjectCreate\ClassDAL\obj\Debug\net8.0\ClassDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\welcome\Downloads\CoreNewProjectCreate\ClassDAL\obj\Debug\net8.0\ClassDAL.AssemblyInfoInputs.cache
+C:\Users\welcome\Downloads\CoreNewProjectCreate\ClassDAL\obj\Debug\net8.0\ClassDAL.AssemblyInfo.cs
+C:\Users\welcome\Downloads\CoreNewProjectCreate\ClassDAL\obj\Debug\net8.0\ClassDAL.csproj.CoreCompileInputs.cache
+C:\Users\welcome\Downloads\CoreNewProjectCreate\ClassDAL\obj\Debug\net8.0\ClassDAL.csproj.Up2Date
+C:\Users\welcome\Downloads\CoreNewProjectCreate\ClassDAL\obj\Debug\net8.0\ClassDAL.dll
+C:\Users\welcome\Downloads\CoreNewProjectCreate\ClassDAL\obj\Debug\net8.0\refint\ClassDAL.dll
+C:\Users\welcome\Downloads\CoreNewProjectCreate\ClassDAL\obj\Debug\net8.0\ClassDAL.pdb
+C:\Users\welcome\Downloads\CoreNewProjectCreate\ClassDAL\obj\Debug\net8.0\ref\ClassDAL.dll

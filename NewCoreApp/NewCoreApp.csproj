@@ -1,0 +1,113 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	  <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\DivisionDistrictBlock\UploadUserFiles\**" />
+    <EmbeddedResource Remove="Views\DivisionDistrictBlock\UploadUserFiles\**" />
+    <None Remove="Views\DivisionDistrictBlock\UploadUserFiles\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Configurations\AddApplicationServices.cs" />
+    <Compile Include="Configurations\DBContextServiceInstaller.cs" />
+    <Compile Include="Configurations\DependencyInjection.cs" />
+    <Compile Include="Configurations\IServiceInstaller.cs" />
+    <Compile Include="Controllers\Attendance.cs" />
+    <Compile Include="Controllers\DivisionDistrictBlock.cs" />
+    <Compile Include="Controllers\EmployeeRegistration.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\StudentRegistration.cs" />
+    <Compile Include="IJwtService.cs" />
+    <Compile Include="JwtService.cs" />
+    <Compile Include="Models\ErrorViewModel.cs" />
+    <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net8.0\NewCoreApp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0\NewCoreApp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0\NewCoreApp.RazorAssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include=".vs\NewCoreApp\v17\DocumentLayout.backup.json" />
+    <Content Include=".vs\NewCoreApp\v17\DocumentLayout.json" />
+    <Content Include="obj\Debug\net8.0\NewCoreApp.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\NewCoreApp.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include=".vs\sd\" />
+    <Folder Include="bin\Debug\net8.0\" />
+    <Folder Include="Data\" />
+    <Folder Include="obj\Debug\net8.0\refint\" />
+    <Folder Include="obj\Debug\net8.0\ref\" />
+    <Folder Include="obj\Debug\net8.0\staticwebassets\" />
+    <Folder Include="Views\Shared\" />
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\js\" />
+    <Folder Include="wwwroot\lib\bootstrap\" />
+    <Folder Include="wwwroot\lib\bootstrap\dist\js\" />
+    <Folder Include="wwwroot\lib\jquery-validation-unobtrusive\" />
+    <Folder Include="wwwroot\lib\jquery-validation\" />
+    <Folder Include="wwwroot\lib\jquery-validation\dist\" />
+    <Folder Include="wwwroot\lib\jquery\" />
+    <Folder Include="wwwroot\lib\jquery\dist\" />
+    <Folder Include="wwwroot\EmployeeFileUpload\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include=".vs\NewCoreApp\config\applicationhost.config" />
+    <None Include=".vs\NewCoreApp\DesignTimeBuild\.dtbcache.v2" />
+    <None Include=".vs\NewCoreApp\FileContentIndex\04880a7a-0145-4bac-814c-c5ccd773a4e6.vsidx" />
+    <None Include=".vs\NewCoreApp\FileContentIndex\46e20048-ae1c-4c10-9fdc-f2e30d69189b.vsidx" />
+    <None Include=".vs\NewCoreApp\FileContentIndex\73ea697c-0977-4377-be5b-ef42714de5ee.vsidx" />
+    <None Include=".vs\NewCoreApp\FileContentIndex\7e7d30d0-3db4-44c1-948a-e5b442ca5c75.vsidx" />
+    <None Include=".vs\NewCoreApp\FileContentIndex\d8dadce1-189e-4ce5-a79d-527f80274a57.vsidx" />
+    <None Include=".vs\NewCoreApp\v17\.futdcache.v2" />
+    <None Include=".vs\ProjectEvaluation\newcoreapp.metadata.v8.bin" />
+    <None Include=".vs\ProjectEvaluation\newcoreapp.projects.v8.bin" />
+    <None Include=".vs\ProjectEvaluation\newcoreapp.strings.v8.bin" />
+    <None Include="NewCoreApp.sln" />
+    <None Include="obj\Debug\net8.0\NewCoreApp.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net8.0\NewCoreApp.assets.cache" />
+    <None Include="obj\Debug\net8.0\NewCoreApp.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net8.0\NewCoreApp.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net8.0\NewCoreApp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net8.0\NewCoreApp.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net8.0\NewCoreApp.RazorAssemblyInfo.cache" />
+    <None Include="obj\NewCoreApp.csproj.nuget.g.props" />
+    <None Include="obj\NewCoreApp.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="Views\EmployeeRegistration\Create.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClassDAL\ClassDAL.csproj" />
+    <ProjectReference Include="..\Data\Data.csproj" />
+    <ProjectReference Include="..\Entity\Entity.csproj" />
+    <ProjectReference Include="..\InfraStucture\InfraStucture.csproj" />
+  </ItemGroup>
+
+</Project>
